@@ -21,7 +21,7 @@ buttons.forEach(button => {
         this.appendChild(circle)
 
         // We are using a set timeout to remove the circle after we add it otherwise everytime we click a new circle evement will be added to the DOM. this helps us remove it after.
-        // setTimeout(() => circle.remove(), 500)
+        setTimeout(() => circle.remove(), 500)
     })
 })
 
